@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "name": "gridsome-plugin-popover",
+  "description": "Popover plugin (vue-js-popover by euvl) for Gridsome",
+  "homepage": "https://github.com/joeldavidw/gridsome-plugin-popover#readme",
+  "repository": "https://github.com/joeldavidw/gridsome-plugin-popover",
+  "main": "gridsome.client.js",
+  "author": "Joel-David Wong <joel@joeldavidw.com>",
+  "license": "MIT",
+  "files": [
+    "gridsome.client.js"
+  ],
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "popover",
+    "vue-js-popover",
+    "euvl"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "vue-js-popover": "^1.2.1"
+  },
+  "devDependencies": {
+    "vue": "^2.5.21"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
